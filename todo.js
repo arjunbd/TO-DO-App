@@ -25,7 +25,7 @@ if(checkbox.checked)
     
     //event listener to track changes in checkbox
 
-todo.addEventListener("click", Test);
+todo.addEventListener("change", Test);
     function Test(){
        countbox().then(function (e){
             setTimeout(function(){ alert(e); }, 50);
