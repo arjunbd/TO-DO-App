@@ -1,11 +1,9 @@
 let todo= document.getElementById("checkboxes");
-var count=0;
-
 //promise based checkbox counting
 
 function countbox(){
     return new Promise(function(resolve,reject){
-    count=0;
+    var count=0;
     var check = document.querySelectorAll('input[type="checkbox"]:enabled');
     for (var checkbox of check) {  
 if(checkbox.checked)

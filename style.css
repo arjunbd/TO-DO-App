@@ -2,3 +2,8 @@ input.largerCheckbox {
     width: 80px;
     height: 80px;
 }
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
